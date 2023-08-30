@@ -1,0 +1,42 @@
+*{
+    text-align: center;
+    background-color: rgba(140, 240, 138, 0.837);
+}
+
+
+button{
+    margin-top: 2%;
+    color:black;
+    background-color: white;
+    height: 50px;
+    width: 120px;
+    border-radius: 20%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: bolder;
+    background-color: burlywood;
+    position: relative;
+}
+
+img{
+    margin:auto;
+    height: 256px;
+    width: 256px;
+}
+#off{
+     margin-left:20%;
+}
+
+button:hover{
+    color: aliceblue;
+    background-color:darkred;
+    cursor: pointer;
+}
+
+JS file :
+function bulb_on(){
+    document.getElementById('image').src="./assets/bulb.png";
+}
+function bulb_off(){
+    document.getElementById('image').src = './assets/b_off.png';
+}
